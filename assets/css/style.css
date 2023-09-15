@@ -1,3 +1,19 @@
+/*-----------------------------------*\
+  #style.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2022 codewithsadee
+ */
+
+
+
+
+
+/*-----------------------------------*\
+  #CUSTOM PROPERTY
+\*-----------------------------------*/
+
 :root {
 
   /**
@@ -16,8 +32,7 @@
   --independence: hsl(219, 21%, 39%);
   --deep-cerise: hsl(329, 63%, 52%);
   --eerie-black: hsl(210, 11%, 15%);
-  --space-cadet: hsl(240, 57%, 58%);
-  --blu: hsl(240, 75%, 60%);
+  --space-cadet: hsl(240, 22%, 25%);
   --blue-jeans: hsl(204, 80%, 63%);
   --slate-blue: hsl(262, 60%, 57%);
   --beau-blue: hsl(208, 86%, 92%);
@@ -195,7 +210,7 @@ button, a { transition: var(--transition); }
 .h1,
 .h2,
 .h3 {
-  color: var(--blu);
+  color: var(--space-cadet);
   font-family: var(--ff-nunito);
   line-height: 1.4;
 }
@@ -343,7 +358,7 @@ button, a { transition: var(--transition); }
 }
 
 .hero-text {
-  color: var(--sapphire);
+  color: var(--independence);
   line-height: 1.8;
   margin-bottom: 30px;
 }
@@ -1186,6 +1201,10 @@ button, a { transition: var(--transition); }
   .footer-list:last-of-type { width: 33.33%; }
 
 }
+
+/* my additions*/
+
+
 /* Style for the booking form */
 #booking-form {
   margin-top: 20px;
@@ -1232,19 +1251,19 @@ button, a { transition: var(--transition); }
 
 /* blog */
 /* Reset some default styles */
-/* body, h1, h2, p, ul {
+body, h1, h2, p, ul {
   margin: 0;
   padding: 0;
-} */
+}
 
 /* Apply a background color and basic styling */
-/* body {
+body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-} */
+}
 
 header {
   background-color: #333;
@@ -1270,7 +1289,7 @@ nav a {
 }
 
 main {
-  max-width: 800px;
+  /* max-width: 800px; */
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
@@ -1305,17 +1324,6 @@ aside {
   font-size: 18px;
   margin-bottom: 10px;
 }
-
-/* Add more styling as needed */
-
-/* footer {
-  clear: both;
-  text-align: center;
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
-} */
-
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
   main {
@@ -1335,19 +1343,19 @@ aside {
 } */
 
 /* Apply basic styling */
-/* body {
+body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-} */
+}
 
 header {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 0; 
 }
 
 h1, h2 {
@@ -1355,11 +1363,11 @@ h1, h2 {
 }
 
 section {
-  max-width: 800px;
+  max-width: 1500px;
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
 }
 
 form {
