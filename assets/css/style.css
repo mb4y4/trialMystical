@@ -1232,19 +1232,19 @@ button, a { transition: var(--transition); }
 
 /* blog */
 /* Reset some default styles */
-body, h1, h2, p, ul {
+/* body, h1, h2, p, ul {
   margin: 0;
   padding: 0;
-}
+} */
 
 /* Apply a background color and basic styling */
-body {
+/* body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-}
+} */
 
 header {
   background-color: #333;
@@ -1329,19 +1329,19 @@ aside {
   }
 }
 /* Reset some default styles */
-body, h1, h2, p, ul, li, form {
+/* body, h1, h2, p, ul, li, form {
   margin: 0;
   padding: 0;
-}
+} */
 
 /* Apply basic styling */
-body {
+/* body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-}
+} */
 
 header {
   background-color: #333;
